@@ -1,0 +1,33 @@
+standard
+***Report Model: Seven_Segment***
+
+IO Statistics
+#IO                     9
+  #input                2
+  #output               7
+  #inout                0
+
+Utilization Statistics
+#lut                   59   out of  19600    0.30%
+#reg                   36   out of  19600    0.18%
+#le                    76
+  #lut only            40   out of     76   52.63%
+  #reg only            17   out of     76   22.37%
+  #lut&reg             19   out of     76   25.00%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                    9   out of    188    4.79%
+  #ireg                 0
+  #oreg                 0
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+Report Hierarchy Area:
++---------------------------------------------+
+|Instance |Module        |le    |lut   |seq   |
++---------------------------------------------+
+|top      |Seven_Segment |76    |59    |36    |
++---------------------------------------------+
