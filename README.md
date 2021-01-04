@@ -20,11 +20,16 @@ Seven Segment Interface with Tang Primer
     │   ├── Seven_Segment_rtl.area
     │   ├── Seven_Segment_rtl.db
     │   ├── simulation
-    │   └── td_2021-01-03_17-04-28.log
+    │   ├── td_2021-01-03_17-04-28.log
+    │   ├── td_2021-01-03_20-49-33.log
+    │   └── td_2021-01-04_15-55-37.log
     ├── README.md
     └── src
         ├── a.out
-        └── Seven_Segment.v
+        ├── Fibonacci_Series_TB.v    #Top Module
+        ├── Fibonacci_Series.v       #Fibonacci Series generation module
+        └── Seven_Segment.v          #Seven Segment Module
+
 
 ## Circuit:
 - Common Cathode Pins Connected to FPGA via current limiting Resistor(330 ohm)
@@ -35,11 +40,13 @@ Seven Segment Interface with Tang Primer
 ## Physical Summary:
 
 <p align="center">
-  <img width="582" height="482" src="assets/physical_summary.png">
+  <img width="611" height="482" src="assets/physical_summary.png">
 </p>
 
-## Working Video:
+## Fibonacci output on seven segment with tang primer:
 
 <p align="center">
-  <img width="640" height="352" src="assets/output.gif">
+  <img width="640" height="352" src="assets/Fibonacci_Output.gif">
 </p>
+
+
