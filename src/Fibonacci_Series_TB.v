@@ -39,20 +39,19 @@ module Fibonacci_Series_TB
         .OUTPUT(Segment_out[6:0])
     );
 
-
 	always @(posedge clk) begin
 		if(RST_N==0) begin			//Code for reset
 			count <= 25'd0;
-            clk_slow <= 1'b0;         
+            		clk_slow <= 1'b0;         
 		end
 	
 		if(count == time1) begin
 			count <= 25'd0;
-            clk_slow <= ~clk_slow;
+           		 clk_slow <= ~clk_slow;
 			reset <= 1'b0;        
-        end
-        else begin 
+        	end
+        	else begin 
  			count <= count + 1'b1;
-        end
-    end
+       	 	end
+	end
 endmodule
