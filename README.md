@@ -33,6 +33,7 @@ Seven Segment Interface with Tang Primer
 
 ## Circuit:
 - Common Cathode Pins Connected to FPGA via current limiting Resistor(330 ohm)
+- IO used for testing - [IO INFO](https://github.com/ombhilare999/Seven-Segment-with-Tang-Primer/tree/main/constraint)
 <p align="center">
   <img width="183" height="289" src="assets/common-cathode.png">
 </p>
