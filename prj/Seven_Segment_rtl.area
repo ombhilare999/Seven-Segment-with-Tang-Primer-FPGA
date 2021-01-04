@@ -1,18 +1,34 @@
 standard
-***Report Model: Seven_Segment***
+***Report Model: Fibonacci_Series_TB***
 
 IO Statistics
-#IO                     9
+#IO                    16
   #input                2
-  #output               7
+  #output              14
   #inout                0
-#MACRO_ADD              2
+
+Gate Statistics
+#Basic gates           59
+  #and                  0
+  #nand                 0
+  #or                   0
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                  1
+  #bufif1               0
+  #MX21                 2
+  #FADD                 0
+  #DFF                 56
+  #LATCH                0
+#MACRO_ADD              3
 #MACRO_EQ               2
-#MACRO_MUX             29
+#MACRO_MUX             14
 
 Report Hierarchy Area:
-+------------------------------------------------+
-|Instance |Module        |gates  |seq    |macros |
-+------------------------------------------------+
-|top      |Seven_Segment |0      |36     |4      |
-+------------------------------------------------+
++------------------------------------------------------+
+|Instance |Module              |gates  |seq    |macros |
++------------------------------------------------------+
+|top      |Fibonacci_Series_TB |3      |56     |5      |
++------------------------------------------------------+

@@ -1,33 +1,33 @@
 standard
-***Report Model: Seven_Segment***
+***Report Model: Fibonacci_Series_TB***
 
 IO Statistics
-#IO                     9
+#IO                    16
   #input                2
-  #output               7
+  #output              14
   #inout                0
 
 Utilization Statistics
 #lut                   59   out of  19600    0.30%
-#reg                   36   out of  19600    0.18%
-#le                    76
-  #lut only            40   out of     76   52.63%
-  #reg only            17   out of     76   22.37%
-  #lut&reg             19   out of     76   25.00%
+#reg                   42   out of  19600    0.21%
+#le                    84
+  #lut only            42   out of     84   50.00%
+  #reg only            25   out of     84   29.76%
+  #lut&reg             17   out of     84   20.24%
 #dsp                    0   out of     29    0.00%
 #bram                   0   out of     64    0.00%
   #bram9k               0
   #fifo9k               0
 #bram32k                0   out of     16    0.00%
-#pad                    9   out of    188    4.79%
+#pad                   16   out of    188    8.51%
   #ireg                 0
-  #oreg                 0
+  #oreg                14
   #treg                 0
 #pll                    0   out of      4    0.00%
 
 Report Hierarchy Area:
-+---------------------------------------------+
-|Instance |Module        |le    |lut   |seq   |
-+---------------------------------------------+
-|top      |Seven_Segment |76    |59    |36    |
-+---------------------------------------------+
++---------------------------------------------------+
+|Instance |Module              |le    |lut   |seq   |
++---------------------------------------------------+
+|top      |Fibonacci_Series_TB |84    |59    |42    |
++---------------------------------------------------+

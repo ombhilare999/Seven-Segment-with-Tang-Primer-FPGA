@@ -11,6 +11,8 @@
     <Source_Files>
         <Verilog>
             <File>../src/Seven_Segment.v</File>
+            <File>../src/Fibonacci_Series.v</File>
+            <File>../src/Fibonacci_Series_TB.v</File>
         </Verilog>
         <ADC_FILE>../constraint/io.adc</ADC_FILE>
         <SDC_FILE/>
@@ -18,11 +20,11 @@
     </Source_Files>
     <TOP_MODULE>
         <LABEL/>
-        <MODULE>Seven_Segment</MODULE>
+        <MODULE>Fibonacci_Series_TB</MODULE>
         <CREATEINDEX>auto</CREATEINDEX>
     </TOP_MODULE>
     <Project_Settings>
-        <Step_Last_Change>2021-01-03 17:04:58</Step_Last_Change>
+        <Step_Last_Change>2021-01-04 15:56:35</Step_Last_Change>
         <Current_Step>60</Current_Step>
         <Step_Status>true</Step_Status>
     </Project_Settings>

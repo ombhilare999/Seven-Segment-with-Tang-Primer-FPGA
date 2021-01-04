@@ -1,41 +1,48 @@
 standard
-***Report Model: Seven_Segment***
+***Report Model: Fibonacci_Series_TB***
 
 IO Statistics
-#IO                     9
+#IO                    16
   #input                2
-  #output               7
+  #output              14
   #inout                0
 
 Utilization Statistics
 #lut                   59   out of  19600    0.30%
-#reg                   36   out of  19600    0.18%
-#le                    76
-  #lut only            40   out of     76   52.63%
-  #reg only            17   out of     76   22.37%
-  #lut&reg             19   out of     76   25.00%
+#reg                   42   out of  19600    0.21%
+#le                    84
+  #lut only            42   out of     84   50.00%
+  #reg only            25   out of     84   29.76%
+  #lut&reg             17   out of     84   20.24%
 #dsp                    0   out of     29    0.00%
 #bram                   0   out of     64    0.00%
   #bram9k               0
   #fifo9k               0
 #bram32k                0   out of     16    0.00%
-#pad                    9   out of    188    4.79%
+#pad                   16   out of    188    8.51%
   #ireg                 0
-  #oreg                 0
+  #oreg                14
   #treg                 0
 #pll                    0   out of      4    0.00%
 
 
 Detailed IO Report
 
-Name          Direction     Location     IOStandard     DriveStrength     PackReg                  
-CLK_IN        INPUT         K14          LVCMOS25       N/A               NONE                     
-RST_N         INPUT         K16          LVCMOS25       N/A               NONE                     
-OUTPUT[6]     OUTPUT        B14          LVCMOS33       20                NONE                     
-OUTPUT[5]     OUTPUT        B10          LVCMOS33       20                NONE                     
-OUTPUT[4]     OUTPUT        T7           LVCMOS33       20                NONE                     
-OUTPUT[3]     OUTPUT        B6           LVCMOS33       20                NONE                     
-OUTPUT[2]     OUTPUT        C5           LVCMOS33       20                NONE                     
-OUTPUT[1]     OUTPUT        A3           LVCMOS33       20                NONE                     
-OUTPUT[0]     OUTPUT        A4           LVCMOS33       20                NONE                     
+Name                Direction     Location     IOStandard     DriveStrength     PackReg                  
+RST_N               INPUT         K16          LVCMOS25       N/A               NONE                     
+clk                 INPUT         K14          LVCMOS25       N/A               NONE                     
+Segment_out[13]     OUTPUT        F16          LVCMOS33       20                OREG                     
+Segment_out[12]     OUTPUT        E16          LVCMOS33       20                OREG                     
+Segment_out[11]     OUTPUT        C15          LVCMOS33       20                OREG                     
+Segment_out[10]     OUTPUT        C16          LVCMOS33       20                OREG                     
+Segment_out[9]      OUTPUT        B16          LVCMOS33       20                OREG                     
+Segment_out[8]      OUTPUT        B15          LVCMOS33       20                OREG                     
+Segment_out[7]      OUTPUT        A14          LVCMOS33       20                OREG                     
+Segment_out[6]      OUTPUT        B14          LVCMOS33       20                OREG                     
+Segment_out[5]      OUTPUT        B10          LVCMOS33       20                OREG                     
+Segment_out[4]      OUTPUT        T7           LVCMOS33       20                OREG                     
+Segment_out[3]      OUTPUT        B6           LVCMOS33       20                OREG                     
+Segment_out[2]      OUTPUT        C5           LVCMOS33       20                OREG                     
+Segment_out[1]      OUTPUT        A3           LVCMOS33       20                OREG                     
+Segment_out[0]      OUTPUT        A4           LVCMOS33       20                OREG                     
 

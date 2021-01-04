@@ -1,12 +1,18 @@
-set_pin_assignment	{ CLK_IN }	{ LOCATION = K14; }
-set_pin_assignment	{ OUTPUT[0] }	{ LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
-set_pin_assignment	{ OUTPUT[1] }	{ LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
-set_pin_assignment	{ OUTPUT[2] }	{ LOCATION = C5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
-set_pin_assignment	{ OUTPUT[3] }	{ LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
-set_pin_assignment	{ OUTPUT[4] }	{ LOCATION = T7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
-set_pin_assignment	{ OUTPUT[5] }	{ LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
-set_pin_assignment	{ OUTPUT[6] }	{ LOCATION = B14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
 set_pin_assignment	{ RST_N }	{ LOCATION = K16; }
-
+set_pin_assignment	{ Segment_out[0] }	{ LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[1] }	{ LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[2] }	{ LOCATION = C5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[3] }	{ LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[4] }	{ LOCATION = T7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[5] }	{ LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[6] }	{ LOCATION = B14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[7] }	{ LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[8] }	{ LOCATION = B15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[9] }	{ LOCATION = B16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[10] }	{ LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[11] }	{ LOCATION = C15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[12] }	{ LOCATION = E16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ Segment_out[13] }	{ LOCATION = F16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ clk }	{ LOCATION = K14; }
 
 ## Seven Segment, 7 pins
